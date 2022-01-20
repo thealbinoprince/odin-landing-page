@@ -33,3 +33,39 @@ li a {
     font-size: 18px;
     margin: 0 15px;
 }
+
+.awesome {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.left-awesome {
+    flex: 1;
+}
+
+.primary {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
+.right-awesome {
+    flex: 1;
+}
+
+
+

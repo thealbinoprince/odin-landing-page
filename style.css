@@ -93,7 +93,7 @@ button {
 }
 
 .information {
-    background-color: lightgray;
+    margin: 20px 300px 100px;
 }
 
 .info_header {
@@ -119,4 +119,5 @@ button {
     font-size: 18px;
     width: 178px;
     text-align: center;
+    margin: 10px 0;
 }

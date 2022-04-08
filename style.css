@@ -92,4 +92,31 @@ button {
     padding: 100px 0;
 }
 
+.information {
+    background-color: lightgray;
+}
 
+.info_header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.squares {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blank_square {
+    height: 170px;
+    width: 170px;
+    border: solid #3882F6 4px;
+    border-radius: 20px;
+}
+
+.under_text {
+    font-size: 18px;
+    width: 178px;
+    text-align: center;
+}

@@ -71,7 +71,7 @@ li a {
     width: 77%;
 }
 
-button {
+.awesome-button {
     background-color: #3882F6;
     color: #E5E7EB;
     font-weight: bold;
@@ -96,7 +96,7 @@ button {
     margin: 20px 300px 100px;
 }
 
-.info_header {
+.info-header {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -108,14 +108,14 @@ button {
     justify-content: space-between;
 }
 
-.blank_square {
+.blank-square {
     height: 170px;
     width: 170px;
     border: solid #3882F6 4px;
     border-radius: 20px;
 }
 
-.under_text {
+.under-text {
     font-size: 18px;
     width: 178px;
     text-align: center;
@@ -139,4 +139,44 @@ button {
     font-size: 24px;
     font-weight: bold;
     color: #1F2937;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    margin: 100px 200px;
+    padding: 50px 100px;
+    display: flex;
+}
+
+.blue-left {
+    flex: 3;
+}
+
+.call {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin: 0;
+}
+
+.click {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.blue-right {
+    flex: 1;
+    display: flex;
+}
+
+.blue-button {
+    color: white;
+    border: solid white 2px;
+    background: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    height: min-content;
 }

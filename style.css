@@ -183,3 +183,14 @@ li a {
     align-self: center;
 
 }
+
+.footer {
+    background-color: #1F2937;
+}
+
+.footer-text {
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 40px;
+}

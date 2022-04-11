@@ -146,6 +146,7 @@ li a {
     margin: 100px 200px;
     padding: 50px 100px;
     display: flex;
+    border-radius: 10px;
 }
 
 .blue-left {
@@ -168,15 +169,17 @@ li a {
 .blue-right {
     flex: 1;
     display: flex;
+    justify-content: center;
 }
 
 .blue-button {
     color: white;
     border: solid white 2px;
     background: #3882F6;
-    font-size: 18px;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 5px 30px;
     border-radius: 10px;
-    height: min-content;
+    font-size: 18px;
+    align-self: center;
+
 }
